@@ -1,0 +1,11 @@
+
+%flexreutilizable{display: $display;
+    justify-content: center;
+  }
+  
+  card {
+  @extend %flexreutilizable;
+  }
+  
+  container { @extend %flexreutilizable;   }
+  

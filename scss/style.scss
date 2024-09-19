@@ -1,0 +1,159 @@
+@import "./base/variables";
+@import "./layout/header"; 
+@import "./layout/footer.scss";
+
+
+
+
+
+
+
+
+$colorVerde:rgba(25, 135, 84, 0.75) ;
+$colorVioleta:rgba(113, 62, 134, 0.75) ;
+$colorNegro: rgba(12, 11, 11 );
+$font-family: Arial, Helvetica, sans-serif;
+$padding-bottom: 100px; 
+$flex-direction: column;
+$display: flex;
+$justify-content: center;
+$text-align: center;
+
+body {background-color: $colorVioleta;
+    font-family:$font-family;
+    color:$colorNegro ;
+    padding-bottom: $padding-bottom ; 
+    margin: 0;
+    
+}
+
+header {
+    padding: 100px;
+    text-align: $text-align;
+    margin-top: 5%;
+  }
+
+.container {
+    display: $display;
+    justify-content: $justify-content; 
+  }
+
+.card { display: $display;
+    justify-content: center; 
+ 
+}
+
+.full-height {
+    height: 100vh; 
+    display: $display;
+    justify-content: $justify-content;
+    align-items: center;     
+  }
+  .card-group {
+    display: $display;
+    justify-content: $justify-content;
+    gap: 1rem; 
+  }
+
+  .imagen-estilo  {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100px; 
+    height: auto; 
+    margin-top: 2px;
+}
+.footer {
+    background-color:$colorVerde ; 
+    padding: 10px 0; 
+    text-align: $text-align; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 0.875rem; 
+     }
+
+
+
+    @media (max-width: 600px) {
+    header {
+      padding: 50px;
+      margin-top: 2%;
+    }
+
+    .container {
+      flex-direction: $flex-direction; 
+    }
+
+    .card {
+      flex-direction: $flex-direction; 
+    }
+
+    .card-group {
+      flex-direction: $flex-direction; 
+      gap: 0.5rem; 
+    }
+
+    .imagen-estilo {
+      width: 80px; 
+    }
+
+    .footer {
+      padding: 5px 0; 
+     }
+    }
+        
+        @media (min-width: 1025px) {
+        body {
+         background-color:$colorVioleta;
+        font-family:$font-family ;
+        color: $colorNegro;
+        padding-bottom: $padding-bottom; 
+        margin: 0;
+      
+         }
+
+    header {
+      padding: 100px;
+      text-align: $text-align;
+      margin-top: 5%;
+        }
+
+    container {
+      display: $display;
+      justify-content: $justify-content;
+      flex-direction: row;
+        }
+
+    .card {
+      display: $display;
+      justify-content: $justify-content; 
+        }
+
+  
+    .card-group { display: $display;
+        justify-content: $justify-content;
+        gap: 1rem; 
+          }
+     
+        
+
+    .imagen-estilo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px; 
+      height: auto; 
+      margin-top: 2px;
+        }
+
+    .footer {
+      background-color: $colorVerde ;
+      padding: 10px 0;
+      text-align: $text-align; 
+      position: relative; 
+      bottom: 0; 
+      width: 100%; 
+      font-size: 0.875rem; 
+        
+    }  }
