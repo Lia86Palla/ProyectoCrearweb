@@ -1,2 +1,2 @@
 #Proyecto CreArWEB
-**Este proyecto tiene como objetivo crear la página oficial de una empresa dedicada a la creación de páginas web.
+**Este proyecto tiene como objetivo la creación de la pagina web de una agencia dedicada al desarrollo de las mismas.
