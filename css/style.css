@@ -1,14 +1,31 @@
+/* Estilos para el encabezado del sitio */
+header {
+  padding: 100px;
+  text-align: center;
+  margin-top: 5%;
+}
 
+footer {
+  background-color: rgba(25, 135, 84, 0.75);
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.875rem;
+}
+h2 { font-size:medium !important ;}
+h3 {  font-size: medium; }
 
 body {
   background-color: rgba(113, 62, 134, 0.75);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(12, 11, 11);
   padding-bottom: 100px;
   margin: 0;
 }
-h2 { font-size:large;}
-h3 {  font-size: large; }
+
+
 
 header {
   padding: 100px;
@@ -37,17 +54,17 @@ header {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  border-radius: 20%;
 }
 
 .imagen-estilo {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 100px !important;
   height: auto;
   margin-top: 2px;
 }
+
 
 .footer {
   background-color: rgba(25, 135, 84, 0.75);
